@@ -23,11 +23,12 @@ return(
      <>
         <form onSubmit={handlesubmit}>
         <textarea value={content} onChange={(e) => setcontent(e.target.value)} 
-         rows={3} placeholder="escribe un mensaje...."  required> </textarea>
+         rows={3} placeholder="escribe un mensaje...."  required /> 
         <button type="submit">enviar</button>  
         </form>         
      </>
- )  }
+    );
+ }
 
 
 

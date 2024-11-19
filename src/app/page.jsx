@@ -15,10 +15,7 @@ export default function LobbyChat() {
    <>
      <h1>lobbychat</h1>
      <form onSubmit={handlesubmit}>
-      <input value={username} 
-      onChange={(e)=>setusername(e.target.value)} 
-      type="text" placeholder="ingrese su nombre de usuario"
-       required></input>
+      <input value={username} onChange={(e)=>setusername(e.target.value)} type="text" placeholder="ingrese su nombre de usuario" required></input>
       <button>enviar</button>
      </form>
    </>
