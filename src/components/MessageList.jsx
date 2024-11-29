@@ -2,7 +2,7 @@
 export default function MessageList({messages}){
    let mensaje="";
      messages?.map((message)=>(
-     mensaje=mensaje+'id_autor-'+message.Autor+':  '+message.content+'\n'
+     mensaje=mensaje+'autor-'+message.autor.nombre+':  '+message.content+'\n'
        ) );
     return(
           <>
